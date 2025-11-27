@@ -109,6 +109,8 @@ ul {
     max-width: 640px;
     margin: 0 auto 2rem auto;
     border-bottom: 0.2rem solid var(--main-white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .projects-grid {
@@ -139,6 +141,9 @@ ul {
     margin-top: 1rem;
     font-size: 1.6rem;
     color: var(--main-white);
+}
+.project-section-bottom {
+    padding-bottom: 4rem;
 }
 .contact-section {
     display: flex;
