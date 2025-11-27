@@ -3,6 +3,8 @@
     --main-red: #be3144;
     --main-blue: #45567d;
     --main-gray: #303841;
+	background-image: url('https://media.istockphoto.com/id/1417882544/photo/large-group-of-cats-and-dogs-looking-at-the-camera-on-blue-background.jpg?s=2048x2048&w=is&k=20&c=f8CxZ2Fqp5C_gweD_p2qIEzdCG2P5vqtFfFPS-HHEIo=');
+ 
 } 
 *, *::before, *::after {
     box-sizing: inherit;
