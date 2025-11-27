@@ -203,3 +203,29 @@ ul {
         padding: 3rem 1.5rem;
     }
 }
+
+/* === THEME SWITCH BUTTON STYLES === */
+.theme-btn {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.4rem;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--main-red);
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.theme-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    background-color: #a72a3a;
+}
+
+/* when button is clicked, this class is toggled on <body> */
+body.alt-bg {
+    background-image: url('https://media.gettyimages.com/id/899618288/photo/japan-cat-island-aoshima-island.jpg?s=2048x2048&w=gi&k=20&c=ZNC5d9SwkLdw3ePdi8F9qnMItJ4eSgWFTpdEpb0z_hg=');
+}
+
