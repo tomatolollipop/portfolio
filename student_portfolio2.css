@@ -233,3 +233,15 @@ body.alt-bg {
     background-image: url('https://media.istockphoto.com/id/935732534/photo/french-bulldogs-isolated-over-white-background.jpg?s=2048x2048&w=is&k=20&c=qIwQrJvYEy_vTbogSPveSFmYyad-Poext-1skcN5ex0=');
 }
 
+
+/*remvoing hover underline for visited site  */
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
